@@ -1,0 +1,85 @@
+/*
+Theme Name: Under Construction
+Version: 1.00
+Author: Stock Room Rat
+Description: A temporary theme during development.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: source-han-serif-variable, sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    padding: 3% 5%;
+}
+.logoBox {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    font-style: normal;
+    height: 8vh;
+    width: 100%;
+    gap: 20px;
+}
+
+.logoBox img {
+    height: 8vh;
+    object-fit: contain;
+}
+.logoBox h1 {
+    display: block;
+    height: 100%;
+    text-align: start;
+    font-size: 1.7rem;
+    /* line-height: 7vh; */
+}
+
+section {
+    height: 200vh;
+    width: 90%;
+    padding: 30% 0 5%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 30px; */
+}
+
+.textBox {
+    width: 90%;
+    font-size: 1.2rem;
+}
+.textBox:last-child {
+    width: 90%;
+    font-weight: 800;
+    font-style: normal;
+}
+.imgBox {
+    width: 70%;
+}
+
+.imgBox img {
+    width: 100%;
+    object-fit: cover;
+}
+footer {
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        height: 300vh;
+    }
+}
